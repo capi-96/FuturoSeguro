@@ -22,7 +22,7 @@ if (!isset($_SESSION['usuario'])) {
                 <a href="hacer_prestamo.php" class="btn btn-outline-success">Hacer Préstamo</a>
                 <a href="hacer_pago.php" class="btn btn-outline-dark">Hacer Pago</a>
                 <hr>
-                <a href="logout.php" class="btn btn-outline-danger">Cerrar Sesión</a>
+                <!--<a href="cerrar_sesion.php" class="btn btn-outline-danger">Cerrar Sesión</a>-->
             </div>
         </div>
     </div>
