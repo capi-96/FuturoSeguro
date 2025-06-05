@@ -4,7 +4,7 @@ class Conectar {
 
     public function Conexion() {
         try {
-            $conectar = new PDO("sqlsrv:server = tcp:umgdbll.database.windows.net;Database=ProyectoFianalDBll", "vidal", "Abril1996/dos");
+            $conectar = new PDO("sqlsrv:server = tcp:umgdbll.database.windows.net;Database=ProyectoFianalDBll", "lector_db", "UMG/2025/lec");
             $conectar->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $conectar;
         } catch (Exception $e) {
